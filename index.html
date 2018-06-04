@@ -11,15 +11,20 @@
 <body>
     <h1>Notepad</h1>
     <form>
+
         <textarea type="text" id="input" placeholder="Enter Something"></textarea>
     </form>
-    <button onclick="getInput()">Submit</button>
-
-
+    <div id="buttonArea">
+        <button onclick="getInput()">Submit</button>
+    </div>
+    <ul id="list">
+    </ul>
+    <div id="buttonArea" onclick="del()">
+        <button>Clear</button>
+    </div>
     <h1>Never Forget Something ! </h1>
     <script src="script.js"></script>
 </body>
 </html>
-
 
 

@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
-    background: linear-gradient(#ee0979, #ff6a00);
+    background: #be3144;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 form{
     display: flex;
@@ -32,9 +31,14 @@ h1{
     font-family: sans-serif;
     margin: 20px;
 }
+#buttonArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 button{
     margin: 20px 0px;
-    width: 100%;
+    width: 90%;
     height: 4em;
     background: white;
     border: transparent;
@@ -50,4 +54,19 @@ button:active{
     background: #303030;
     color:white;
     transition: .3s;
+}
+
+li{
+    word-wrap: break-word;
+    height: auto;
+    font-family: sans-serif;
+    color: white;
+    padding: 30px 10px;
+    font-size: 1.2em;
+    min-height: 40px;
+    width: 100%;
+    background: #be3144;
+}
+li:nth-child(odd){
+    background: #f05941;
 }
